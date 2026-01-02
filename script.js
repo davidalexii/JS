@@ -1,7 +1,7 @@
 const button1 = document.getElementById("smth");
 const button2 = document.getElementById("smth2");
 const counter = document.getElementById("counter-display");
-let cookieNumber = 0;
+let cookieNumber = 1;
 
 button1.addEventListener("click", increaseCounter);
 button2.addEventListener("click", decreaseCounter);
@@ -24,3 +24,4 @@ function decreaseCounter() {
     counter.innerText = "No more cookies :(";
   }
 }
+
